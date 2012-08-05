@@ -1,0 +1,32 @@
+{
+    "name": "cowlby/monologgly",
+    "description": "Monolog handler for the Loggly API.",
+    "type": "library",
+    "keywords": ["monolog", "logging", "loggly"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Jose Prado",
+            "email": "cowlby@me.com"
+        }
+    ],
+
+    "require": {
+        "monolog/monolog": "1.*",
+        "cowlby/php-loggly-bindings": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Cowlby\\Monolog": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cowlby/php-loggly-bindings"
+        }
+    ]
+}
