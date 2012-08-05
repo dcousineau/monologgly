@@ -19,7 +19,8 @@
 
     "autoload": {
         "psr-0": {
-            "Cowlby\\Monolog": "src/"
+            "Cowlby\\Monolog": "src/",
+            "Cowlby\\Tests\\Monolog": "tests/"
         }
     },
 
