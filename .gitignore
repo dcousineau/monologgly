@@ -1,4 +1,4 @@
 vendor
 tests/sandbox.php
 composer.lock
-
+composer.phar
