@@ -2,3 +2,5 @@ vendor
 tests/sandbox.php
 composer.lock
 composer.phar
+bin/*
+phpunit.xml
